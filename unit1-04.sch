@@ -1,0 +1,286 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 65561A84
+P 4900 5250
+F 0 "D1" H 4893 5467 50  0000 C CNN
+F 1 "LED" H 4893 5376 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 4900 5250 50  0001 C CNN
+F 3 "~" H 4900 5250 50  0001 C CNN
+	1    4900 5250
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5150 3500 5150 3650
+$Comp
+L Device:R_US R4
+U 1 1 6559B2EA
+P 5150 3350
+F 0 "R4" H 5218 3396 50  0000 L CNN
+F 1 "R_US" H 5218 3305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5190 3340 50  0001 C CNN
+F 3 "~" H 5150 3350 50  0001 C CNN
+	1    5150 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4550 5050 4550
+Connection ~ 4900 4550
+Wire Wire Line
+	4900 4550 4900 4650
+Wire Wire Line
+	4900 5400 4900 5600
+Wire Wire Line
+	7050 3250 7250 3250
+Wire Wire Line
+	5000 3650 5150 3650
+$Comp
+L Connector:XLR3_Switched J1
+U 2 1 655833B4
+P 4150 3650
+F 0 "J1" H 4150 3992 50  0000 C CNN
+F 1 "XLR3_Switched" H 4150 3901 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4150 3750 50  0001 C CNN
+F 3 " ~" H 4150 3750 50  0001 C CNN
+	2    4150 3650
+	-1   0    0    1   
+$EndComp
+Connection ~ 5950 4750
+Wire Wire Line
+	4900 4950 4900 5100
+$Comp
+L Device:R_US R3
+U 1 1 65561A7E
+P 4900 4800
+F 0 "R3" H 4968 4846 50  0000 L CNN
+F 1 "R_US" H 4968 4755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4940 4790 50  0001 C CNN
+F 3 "~" H 4900 4800 50  0001 C CNN
+	1    4900 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5950 3250 5950 3150
+Connection ~ 5950 3250
+Wire Wire Line
+	6200 3250 5950 3250
+Wire Wire Line
+	6500 3250 6750 3250
+$Comp
+L Device:R_US R6
+U 1 1 655588F8
+P 6900 3250
+F 0 "R6" H 6968 3296 50  0000 L CNN
+F 1 "R_US" H 6968 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6940 3240 50  0001 C CNN
+F 3 "~" H 6900 3250 50  0001 C CNN
+	1    6900 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 4550 4450 4550
+Wire Wire Line
+	4450 3650 4700 3650
+Wire Wire Line
+	5950 3400 5950 3250
+Connection ~ 5950 3400
+Wire Wire Line
+	5350 3400 5950 3400
+Wire Wire Line
+	5950 3450 5950 3400
+Wire Wire Line
+	5350 4750 5950 4750
+Wire Wire Line
+	4750 4550 4900 4550
+$Comp
+L Device:R_US R5
+U 1 1 6553033B
+P 5950 3000
+F 0 "R5" H 6018 3046 50  0000 L CNN
+F 1 "R_US" H 6018 2955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5990 2990 50  0001 C CNN
+F 3 "~" H 5950 3000 50  0001 C CNN
+	1    5950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 6552994F
+P 4600 4550
+F 0 "R1" H 4668 4596 50  0000 L CNN
+F 1 "R_US" H 4668 4505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4640 4540 50  0001 C CNN
+F 3 "~" H 4600 4550 50  0001 C CNN
+	1    4600 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 65528A0F
+P 4850 3650
+F 0 "R2" H 4918 3696 50  0000 L CNN
+F 1 "R_US" H 4918 3605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4890 3640 50  0001 C CNN
+F 3 "~" H 4850 3650 50  0001 C CNN
+	1    4850 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 65527C07
+P 5250 4550
+F 0 "Q1" H 5440 4596 50  0000 L CNN
+F 1 "2N3904" H 5440 4505 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 5450 4475 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 5250 4550 50  0001 L CNN
+	1    5250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q2
+U 1 1 6552697A
+P 5850 3650
+F 0 "Q2" H 6040 3696 50  0000 L CNN
+F 1 "2N3904" H 6040 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 6050 3575 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 5850 3650 50  0001 L CNN
+	1    5850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 6555AC7F
+P 6350 3250
+F 0 "D3" H 6343 3467 50  0000 C CNN
+F 1 "LED" H 6343 3376 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 6350 3250 50  0001 C CNN
+F 3 "~" H 6350 3250 50  0001 C CNN
+	1    6350 3250
+	-1   0    0    1   
+$EndComp
+Text Notes 6800 3400 0    50   ~ 0
+220 Ω
+Text Notes 5050 4950 1    50   ~ 0
+220 Ω
+Text Notes 4700 4700 2    50   ~ 0
+220 Ω
+Text Notes 5300 3250 3    50   ~ 0
+220 Ω
+Connection ~ 5150 3650
+Wire Wire Line
+	5150 3650 5650 3650
+Text Notes 4950 3800 2    50   ~ 0
+220 Ω
+Text Notes 5900 2900 3    50   ~ 0
+220 Ω
+Wire Wire Line
+	5950 3850 5950 4750
+Wire Wire Line
+	5350 3400 5350 4350
+$Comp
+L Connector:XLR3_Switched J2
+U 2 1 65612DA7
+P 3950 4550
+F 0 "J2" H 3950 4183 50  0000 C CNN
+F 1 "XLR3_Switched" H 3950 4274 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3950 4650 50  0001 C CNN
+F 3 " ~" H 3950 4650 50  0001 C CNN
+	2    3950 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 65640BCC
+P 2650 3650
+F 0 "J3" H 2542 3325 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 2542 3416 50  0000 L BNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 2650 3650 50  0001 C CNN
+F 3 "~" H 2650 3650 50  0001 C CNN
+	1    2650 3650
+	-1   0    0    1   
+$EndComp
+Text Notes 2700 3750 0    50   ~ 0
+GND
+Text Notes 2800 3500 0    50   ~ 0
+V
+Wire Wire Line
+	2850 3650 2900 3650
+Wire Wire Line
+	2900 3650 2900 3750
+Wire Wire Line
+	2900 3750 3850 3750
+Wire Wire Line
+	2900 3750 2900 4650
+Wire Wire Line
+	2900 4650 3100 4650
+Connection ~ 2900 3750
+Wire Wire Line
+	2850 3550 3000 3550
+Wire Wire Line
+	3000 3550 3000 4450
+Wire Wire Line
+	3000 4450 3650 4450
+Connection ~ 3000 3550
+Wire Wire Line
+	3000 3550 3500 3550
+Wire Wire Line
+	4900 5600 3100 5600
+Wire Wire Line
+	3100 5600 3100 4650
+Connection ~ 3100 4650
+Wire Wire Line
+	3100 4650 3650 4650
+Wire Wire Line
+	5950 5600 4900 5600
+Wire Wire Line
+	5950 4750 5950 5600
+Connection ~ 4900 5600
+Wire Wire Line
+	7250 3250 7250 5600
+Wire Wire Line
+	7250 5600 5950 5600
+Connection ~ 5950 5600
+Wire Wire Line
+	5150 3200 5150 3050
+$Comp
+L Device:LED D2
+U 1 1 6559B2F0
+P 5150 2900
+F 0 "D2" H 5143 3117 50  0000 C CNN
+F 1 "LED" H 5143 3026 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5150 2900 50  0001 C CNN
+F 3 "~" H 5150 2900 50  0001 C CNN
+	1    5150 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 2750 5150 2550
+Wire Wire Line
+	5950 2550 5150 2550
+Wire Wire Line
+	3500 2550 3500 3550
+Wire Wire Line
+	5950 2550 5950 2850
+Connection ~ 5150 2550
+Wire Wire Line
+	5150 2550 3500 2550
+Connection ~ 3500 3550
+Wire Wire Line
+	3500 3550 3850 3550
+Text Notes 3000 2550 0    50   ~ 0
+Infinity de Guzman\nTEJ4M\nUnit 1-04\nNOR Gate
+$EndSCHEMATC
